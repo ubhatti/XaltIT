@@ -51,9 +51,9 @@ void test ()
 {
   // Delta for comparing two results.
   float epsilon = 0.00001f;
-  for (double i = 3; i < 82.1; i += 0.5)
+  for (double i = 0; i < 100.1; i += 0.3)
     {
-      for (int j = 4; j < 5; ++j)
+      for (int j = 0; j < 10; ++j)
         {
           double computedPow = pow (i, j);
           double rootValue = j;
